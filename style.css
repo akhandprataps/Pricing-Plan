@@ -1,0 +1,246 @@
+body{
+    margin:0;
+   
+}
+.container{
+    width: 360px;
+    height: 1400px;
+    background: #F7F7FF 0% 0% no-repeat padding-box;
+}
+.text{
+    top: 0;
+    height: 155px;
+    position: sticky;
+}
+.head{
+    margin-left: 96px;
+    width: 170px;
+    height: 38px;
+    /* text-align: left; */
+    font: normal normal bold 31px/34px Montserrat;
+    letter-spacing: -1.55px;
+    color: #65687E;
+}
+.Annually{
+    padding-left: 70px;
+    width: 78px;
+    height: 28px;
+    font: normal normal medium 14px/15px Montserrat;
+    color: #65687E;
+    display: inline-block;
+    margin: 3px;
+}
+.btn{
+    width: 49px;
+    height: 24px;
+    background: #C1C4F5 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+}
+
+.Monthly{
+    width: 55px;
+    height: 18px;
+    text-align: left;
+    font: normal normal medium 14px/15px Montserrat;
+    letter-spacing: -0.7px;
+    color: #65687E;
+    display: inline-block;
+    margin: 20px;
+}
+.box1{
+    width: 320px;
+    height: 414px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 25px #00000029;
+    border-radius: 10px;
+    margin: 20px;
+}
+.box2{
+    width: 320px;
+    height: 414px;
+    background: #B2B6F4 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 25px #00000029;
+    border-radius: 10px;
+    margin: 20px;
+}
+.box3{
+    width: 320px;
+    height: 414px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 25px #00000029;
+    border-radius: 10px;
+    margin: 20px;
+
+}
+.master1{
+    padding-top: 30px;
+    margin-left: 130px;
+    margin-right: 130px;
+    width: 61px;
+    height: 20px;
+    /* text-align: center; */
+    font: normal normal bold 17px/20px Montserrat;
+    color: #65687E;
+    
+}
+.R1{
+    margin-left: 79px;
+    width: 151px;
+    height: 45px;
+    text-align: center;
+    font: normal normal bold 59px/66px Montserrat;
+    color: #65687E;
+}
+.s1{
+    margin-left: 30px;
+    width: 254px;
+    height: 41px;
+    text-align: center;
+    font: normal normal 600 13px/19px Montserrat;
+    color: #65687E;
+    border-top: 1px solid #65687E;
+    border-bottom: 1px solid #65687E;
+    padding-top: 5px;
+}
+.s2{
+    margin-left: 30px;
+    width: 254px;
+    height: 41px;
+    text-align: center;
+    color: #65687E;
+    border-bottom: 1px solid #65687E;
+    padding-top: 5px;
+}
+.s3{
+    margin-left: 30px;
+    width: 254px;
+    height: 41px;
+    text-align: center;
+    color: #65687E;
+    border-bottom: 1px solid #65687E;
+    padding-top: 5px;
+   
+}
+input{
+    width: 254px;
+    height: 41px;
+    border: 1px solid #65687E;
+    border-radius: 4px;
+    margin: 18px;
+    text-align: center;
+}
+.Professional{
+    padding-top: 30px;
+    margin-left: 90px;
+    margin-right: 130px;
+    width: 61px;
+    height: 20px;
+    color: #FDFDFF;
+    font: normal normal bold 25px/29px Montserrat;
+}
+.R2{
+    margin-left: 79px;
+    width: 151px;
+    height: 45px;
+    text-align: center;
+    font: normal normal bold 59px/66px Montserrat;
+    color:#FDFDFF;
+}
+.t1{
+    margin-left: 30px;
+    width: 254px;
+    height: 41px;
+    text-align: center;
+    font: normal normal 600 13px/19px Montserrat;
+    color: #FDFDFF;
+    border-top: 1px solid #FDFDFF;
+    border-bottom: 1px solid #FDFDFF;
+    padding-top: 5px;
+}
+.t2{
+    margin-left: 30px;
+    width: 254px;
+    height: 41px;
+    text-align: center;
+    color: #FDFDFF;
+    border-bottom: 1px solid #FDFDFF;
+    padding-top: 5px;
+}
+.t3{
+    margin-left: 30px;
+    width: 254px;
+    height: 41px;
+    text-align: center;
+    color: #FDFDFF;
+    border-bottom: 1px solid #FDFDFF;
+    padding-top: 5px;
+   
+}
+input{
+    padding-left: 30px;
+    width: 254px;
+    height: 41px;
+    border: 1px solid #FDFDFF;
+    border-radius: 4px;
+    margin: 18px;
+    text-align: center;
+}
+input:hover{
+    border: 2px solid #65687E;
+}
+#first{
+    border: 1px solid #65687E;
+    border-radius: 4px;
+}
+
+.master2{
+    padding-top: 30px;
+    margin-left: 130px;
+    margin-right: 130px;
+    width: 61px;
+    height: 20px;
+    /* text-align: center; */
+    font: normal normal bold 17px/20px Montserrat;
+    color: #65687E;
+    
+}
+@media screen and (min-width:500px) {
+    .container{
+        width: 1480px;
+        height: 750px;
+        display: flex;
+        flex-basis: 2;
+        position: relative;
+    }
+    .text{
+        padding-top: 50px;
+        padding-left: 545px;
+        position: absolute;
+        
+        
+    }
+    .box1{
+        margin-top: 280px;
+        margin-left: 203px;
+        width: 362px;
+        height: 466px;
+        position: absolute;
+        
+    }
+    .box2{
+        margin-top: 253px;
+        margin-left: 540px;
+        width: 367px;
+        height: 515px;
+        position: absolute;
+    }
+    .box3{
+        margin-top: 280px;
+        margin-left: 908px;
+        width: 362px;
+        height: 466px;
+        position: absolute;
+
+    }
+    
+}
